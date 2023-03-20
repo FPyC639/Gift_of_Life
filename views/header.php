@@ -40,7 +40,7 @@ echo'
         <a class="nav-link" href="#">Display Stats</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Mission Page</a>
+        <a class="nav-link" href="missionpage.php">Mission Page</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Founders</a>
