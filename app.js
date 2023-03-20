@@ -1,11 +1,24 @@
-const express = require('express');
-const app = express();
-const fs = require('fs');
-const path = require('path');
-
-app.use(express.static('public')); // Serve static files from 'public' folder
-
-const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => {
-  console.log(`Server started on port ${PORT}`);
+var express = require('express');
+var socket = require('socket.io');
+var phpExpress = require('php-express')({
+    binPath: 'php'
 });
+
+var app = express();
+
+//App setup
+var server = app.listen(4000, function() {
+    console.log('listening on requests on port 4000');
+});
+
+
+app.engine('php', phpExpress.engine);
+
+app.all(/.+\.php$/, phpExpress.router);
+
+//Static files
+app.use(express.static('public'));
+
+
+//Socket setup
+var io = socket(server);
