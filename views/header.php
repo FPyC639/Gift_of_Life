@@ -45,16 +45,16 @@ echo'
         <a class="nav-link" href="missionpage.php">Mission Page</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Founders</a>
+        <a class="nav-link" href="founders.php">Founders</a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Login/Signup
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Sign up</a>
+          <a class="dropdown-item" href="HCI.php">Sign up</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Login</a>
+          <a class="dropdown-item" href="HCI.php">Login</a>
         </div>
       </li>
     </ul>
