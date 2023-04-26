@@ -1,7 +1,7 @@
 <?php
 #footer
 echo' <!---------------Footer---------------->
-    <div class="footer"  style="background-color: #f7ab5e">
+    <div class="footer"  style="background-color: #fca247;">
       <div class="container">
         <div class="row">
           

@@ -24,10 +24,10 @@ echo"<head>
 echo'  
 <body>
 <!-------------Header--------------->
-<div class ="header" style ="background-color: #f7ab5e">
-<div class="container">
+<div class ="header" style ="background-color: #fca247;">
+
 <div class= "d-flex flex-row">
-<nav class="navbar navbar-expand-lg navbar-light" style= "background-color: #f7ab5e">
+<nav class="navbar navbar-expand-lg navbar-light" style= "background-color: #fca247">
   <a class="navbar-brand" href="#">Gift of Life</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -51,7 +51,7 @@ echo'
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Login/Signup
         </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #ffeace;">
           <a class="dropdown-item" href="HCI.php">Sign up</a>
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="HCI.php">Login</a>
@@ -66,7 +66,7 @@ echo'
 </div>
 
 
-</div>
+
 
    
 
